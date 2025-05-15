@@ -21,7 +21,7 @@ render(() => {
     // Try to authenticate without password first to check if auth is disabled
     try {
       const noAuthResult = await fetch(
-        `${import.meta.env.VITE_OPENCONTROL_ENDPOINT || ""}/auth`,
+        `${import.meta.env.VITE_OPENCONTROL_ENDPOINT || ""}/r389153/auth`,
         {
           method: "GET",
         },
