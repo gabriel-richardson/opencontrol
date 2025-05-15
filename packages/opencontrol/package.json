@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "opencontrol",
+  "name": "@gabriel-richardson/opencontrol",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.9",
   "type": "module",
   "bin": {
     "opencontrol": "./bin/index.mjs"
@@ -32,5 +32,11 @@
   "devDependencies": {
     "@standard-schema/spec": "1.0.0",
     "opencontrol-frontend": "workspace:*"
-  }
+  },
+  "files": [
+    "src",
+    "bin",
+    "script",
+    "dist"
+  ]
 }
